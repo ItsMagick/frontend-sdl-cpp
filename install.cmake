@@ -23,7 +23,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux" AND NOT ENABLE_FLAT_PACKAGE)
                     )
         endmacro()
 
-        foreach(size 16 32 48 64 72 96 128 256)
+        foreach(size 16 32 48 64)
             install_icon(${size})
         endforeach()
 
